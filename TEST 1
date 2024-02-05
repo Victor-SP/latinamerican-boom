@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Latin American Boom Knowledge Graph</title>
+  <style>
+    .entity {
+      background-color: #f0f0f0;
+      border: 1px solid #ccc;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+    .relationship {
+      color: blue;
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+  <div class="entity">
+    <h2>Latin American Boom</h2>
+    <p>The Latin American Boom was a literary movement in the 1960s and 1970s characterized by the emergence of influential writers.</p>
+    <ul>
+      <li><strong>Key Figures:</strong>
+        <ul>
+          <li>Julio Cortázar</li>
+          <li>Gabriel García Márquez</li>
+          <li>Mario Vargas Llosa</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+
+  <div class="entity">
+    <h3>Authors</h3>
+    <ul>
+      <li>Julio Cortázar</li>
+      <li>Gabriel García Márquez</li>
+      <li>Mario Vargas Llosa</li>
+    </ul>
+  </div>
+
+  <div class="relationship">
+    <p>Relationship: Influential Writers</p>
+  </div>
+
+  <div class="entity">
+    <h3>Literary Topics</h3>
+    <ul>
+      <li>Magical Realism</li>
+      <li>Existentialism</li>
+      <li>Social Critique</li>
+    </ul>
+  </div>
+
+  <div class="relationship">
+    <p>Relationship: Main Literary Topics</p>
+  </div>
+
+  <div class="entity">
+    <h3>Books by Julio Cortázar</h3>
+    <ul>
+      <li>Hopscotch (Rayuela)</li>
+      <li>Blow-Up and Other Stories (Final del juego)</li>
+    </ul>
+  </div>
+
+  <div class="relationship">
+    <p>Relationship: Books by Julio Cortázar</p>
+  </div>
+
+  <div class="entity">
+    <h3>Books by Gabriel García Márquez</h3>
+    <ul>
+      <li>One Hundred Years of Solitude (Cien años de soledad)</li>
+      <li>Love in the Time of Cholera (El amor en los tiempos del cólera)</li>
+    </ul>
+  </div>
+
+  <div class="relationship">
+    <p>Relationship: Books by Gabriel García Márquez</p>
+  </div>
+
+  <div class="entity">
+    <h3>Books by Mario Vargas Llosa</h3>
+    <ul>
+      <li>The Time of the Hero (La ciudad y los perros)</li>
+      <li>The Feast of the Goat (La fiesta del chivo)</li>
+    </ul>
+  </div>
+
+  <div class="relationship">
+    <p>Relationship: Books by Mario Vargas Llosa</p>
+  </div>
+
+</body>
+</html>
